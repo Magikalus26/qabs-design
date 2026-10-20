@@ -8,4 +8,6 @@
 - `sw.js` : cache hors ligne (réseau d'abord pour la page) — incrémenter `VERSION` à chaque publication
 - `manifest.webmanifest`, `icons/` : PWA
 
-Formats : dessins enregistrés en `.qabs` (JSON compatible QabsCore), export SVG / PNG.
+Formats : dessins enregistrés en `.qabs` (JSON, format 2 ; les fichiers format 1 de QabsCore sont migrés à l'ouverture), export SVG / PNG (fond transparent possible).
+
+**v2** : édition de points (ajout, suppression, angle ⇄ lisse, reprise d'un tracé ouvert), redimensionnement des objets tournés, rotation / rayon / tirets / limite d'angle dans l'inspecteur, outil Texte, dégradés linéaires et radiaux, opérations booléennes (union, soustraction, intersection, exclusion).
