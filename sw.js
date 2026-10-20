@@ -1,5 +1,5 @@
 /* Qabs Design – service worker. Incrémenter VERSION à chaque publication. */
-const VERSION = 'qabs-v2';
+const VERSION = 'qabs-v3';
 const ASSETS = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png',
   './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png'];
 self.addEventListener('install', (e) => {
